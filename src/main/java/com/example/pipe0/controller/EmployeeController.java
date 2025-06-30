@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/employees")
 public class EmployeeController {
 
+    int change=0;
     @GetMapping
     public String getEmployees() {
         return "List of employees";
     }
+
 }
